@@ -1,6 +1,11 @@
+import { Link } from "react-router-dom";
+
 function Coffee() {
     return (
-        <h1>I'm coffee!</h1>
+        <div>
+            <h1>I'm coffee!</h1>
+            <Link to="/"  >Vending Machine</Link>
+        </div>
     )
 }
 
